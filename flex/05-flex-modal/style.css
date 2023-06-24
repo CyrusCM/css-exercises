@@ -7,7 +7,7 @@ html, body {
 body {
   font-family: Roboto, sans-serif;
   margin: 0;
-  background: #aaa;
+  background: #747373;
   color: #333;
   /* I'll give you this one for free lol */
   display: flex;
@@ -16,10 +16,11 @@ body {
 }
 
 .modal {
-  background: white;
+  background: rgb(184, 0, 0);
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding:1%;
 }
 
 .icon {
@@ -54,6 +55,7 @@ button {
   cursor: pointer;
   padding: 8px 16px;
   border-radius: 8px;
+
 }
 
 button.continue {
@@ -63,7 +65,17 @@ button.continue {
 }
 
 button.cancel {
-  background: white;
+  background: rgb(252, 252, 252);
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+
+
+.container {
+  display: flex;
+}
+
+.contianer.header{
+  display: flex;
 }
